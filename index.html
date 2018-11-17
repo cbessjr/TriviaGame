@@ -12,22 +12,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-<body>
+<body background="assets/images/background2.jpeg">
     
 
     
     <!-- <button id = "start-game" type="button" width="150px">Start!</button> -->
     <!-- Did not get the button working. I was able to get it on the page but there is no function behind it -->
     
-    <div id="test"></div>
-    <div id="time-left"></div>
 
-    <form>
+    <div id="time-left" class="center">
+
+        <h3>Seconds Left <span id="seconds-left"></span></h3>
+  
+    </div>
+  
+    <div id="questions-form" class="center"></div>
+
+    <!-- <form>
         <div>
 
             <div>
@@ -79,7 +83,10 @@
             </div>    
 
         </div>
-    </form>
+    </form> -->
+
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 
 </body>
